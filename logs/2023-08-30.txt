@@ -1,0 +1,13 @@
+[30-Aug-2023 16:51:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(33): Core\Router->dispatch('posts/index/456')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 131
+[30-Aug-2023 16:52:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\MVC\public\index.php(33): Core\Router->dispatch('posts/index/456')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 131
+[30-Aug-2023 16:52:29 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method neeAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\xampp\htdocs\MVC\Core\Router.php(122): Core\Controller->__call('nee', Array)
+#1 C:\xampp\htdocs\MVC\public\index.php(33): Core\Router->dispatch('posts/nee')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Controller.php' on line 52
